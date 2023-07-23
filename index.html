@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!--~ ################# Icon #################-->
+    <link rel="shortcut icon" href="sewar/1.png" type="image/x-icon">
+
+    <!--~ ################# Title #################-->
+    <title> Bookmarker</title>
+
+
+    <!--~ ################# CSS #################-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <!--~ ################# Fonts #################-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Righteous&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <main class="m-4">
+        <header class="text-center container">
+            <h1 id="hOne" class=""> </h1>
+        </header>
+
+    </main>
+
+    <section class="container section-one ">
+        <div class="text-center pt-4 pb-3">
+            <h3 id="hThree" class=" "></h3>
+        </div>
+
+
+        <label class="d-block py-3" for="siteNameInput">
+            <i class="fa-solid fa-bookmark fa-beat"> </i>
+            Site Name</label>
+        <input placeholder="Name" class="w-100 form-control-lg px-3 inputFocus " type="text" id="siteNameInput">
+
+        <label class="d-block py-3" for="siteUrlInput"> <i class="fa-solid fa-link fa-beat"> </i> Site URL</label>
+        <input placeholder="URL" class="w-100 form-control-lg px-3 inputFocus " type="text" id="siteUrlInput">
+
+
+        <button id="addBookmarkBtn" class=" btn btn-outline-secondary d-block mx-auto my-3 px-3">
+
+            <i class="fa-solid fa-arrow-up-right-from-square" > Submit</i>
+        </button>
+    </section>
+
+
+    <section class="container mt-5">
+        <table class="table shadow-lg  text-center">
+            <thead>
+                <th>No.</th>
+                <th>Website Name</th>
+                <th>Visite Website</th>
+                <th>Delete Bookmark</th>
+            </thead>
+
+            <tbody id="tableBody" class="">
+
+                
+            </tbody>
+        </table>
+    </section>
+
+
+
+
+
+
+
+    <!--~ ################# Java Script Files #################-->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
+
+
+
+
+

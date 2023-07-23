@@ -1,0 +1,120 @@
+/*& ########################  Body   ########################  */
+body {
+    min-height: 100vh;
+    background: linear-gradient(0deg, rgba(210, 10, 10, 0.311)0%, rgba(225, 182, 11, 0.409)96%);
+ 
+    font-family: 'Righteous', cursive;
+}
+
+
+/*& ########################  H One   ########################  */
+#hOne {
+    position: relative;
+    z-index: 3;
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+}
+
+#hOne::after {
+    position: absolute;
+    content: "";
+    background-image: url(../sewar/2.png);
+    background-position: center center;
+    background-size: cover;
+    top: 50%;
+    height: 70%;
+    width: 33%;
+    left: 33%;
+    z-index: -1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+#hOne:hover::after {
+    left: 30%;
+    width: 40%;
+}
+
+/*& ######################## H Three   ########################  */
+
+
+#hThree {
+    background: -webkit-linear-gradient(left, #35c644, #e74404);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/*& ######################## Lable Image  ########################  */
+
+label img {
+    width: 1.875rem;
+    height: 1.875rem;
+}
+
+/*& ######################## Table ########################  */
+#tableBody {
+    /* background-image:url(../sewar/8.png) ;
+    background-position: center center;
+    background-size: cover; */
+}
+
+th {
+    background-color: transparent !important;
+}
+
+td {
+    background-color: transparent !important;
+
+}
+
+/*& ######################## Buttons  ########################  */
+button i {
+    font-size: smaller;
+}
+
+button a {
+    color: inherit;
+}
+
+.btn-outline-secondary {
+    --bs-btn-color: #d4694b;
+    --bs-btn-border-color: #d4694b;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #d4694b;
+    --bs-btn-hover-border-color: #d4694b;
+    --bs-btn-focus-shadow-rgb: 108, 117, 125;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #d4694b;
+    --bs-btn-active-border-color: #d4694b;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #d4694b;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #d4694b;
+    --bs-gradient: none;
+}
+
+
+/*& ######################## Inputs ########################  */
+input {
+    background-color: rgba(225, 182, 11, 0.179);
+    border: 1px dotted rgba(0, 0, 0, 0.305);
+
+}
+
+.inputFocus:focus {
+    outline-style: none;
+
+    border: 1.5px solid #cf4206d2 !important;
+
+}
+
+/*& ######################## Section One ########################  */
+
+.section-one {
+    border-bottom: dotted black .125rem;
+    border-top: dotted black .125rem;
+}
